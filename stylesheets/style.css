@@ -1,0 +1,95 @@
+.header{
+	padding: 10px;
+	text-align: center;
+	background-color: #005c79 ;
+  margin: 0;
+  height: 20%;
+  color:#f8b763;
+	
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(126,174,174);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: rgb(32,81,105);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.logo: hover {
+  background-color:rgb(126,174,174);
+  position: relative;
+  right: 500px;
+  position: center;
+
+}
+
+/*{box-sizing:border-box}*/
+.footer {
+	position: fixed;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	background-color: cyan;
+	color:white;
+	text-align: center;
+}
+
+
+
+
+body {
+  font-color: rgb(126,174,174);
+  font-family:'Noto Serif SC', serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: #98cbbf;
+
+
+}
+html{
+  height: 80%;
+}
+body  {
+  height: 100%;
+}
+
+
